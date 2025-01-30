@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component | Frontend Mentor</title>
+
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <main class="main-rating-component" id="rating-component">
+        <section class="icon-star">
+            <img src="./src/images/icon-star.svg" alt="Icon Star">
+        </section>
+
+        <section class="about-feedback">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve
+                our offering!</p>
+        </section>
+
+        <ul class="rating-numbers">
+            <li class="rating-number">
+                <button id="1-rating" class="rating-btn" type="button">1</button>
+            </li>
+            <li class="rating-number">
+                <button id="2-rating" class="rating-btn" type="button">2</button>
+            </li>
+            <li class="rating-number">
+                <button id="3-rating" class="rating-btn" type="button">3</button>
+            </li>
+            <li class="rating-number">
+                <button id="4-rating" class="rating-btn" type="button">4</button>
+            </li>
+            <li class="rating-number">
+                <button id="5-rating" class="rating-btn" type="button">5</button>
+            </li>
+        </ul>
+
+        <button id="submit-btn" class="btn-submit">SUBMIT</button>
+
+    </main>
+    <footer class="footer">Challenge by <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> |
+        Coded by Lucas Laino </footer>
+
+    <section class="thank-you-component" id="thankyou-component">
+        <section class="thank-you-img">
+            <img src="./src/images/illustration-thank-you.svg" alt="illustration thank you">
+        </section>
+
+        <p class="user-rating">You selected <span id="feedback-rating"></span> out of 5</p>
+
+        <section class="thank-you-messenge">
+            <h2>Thank You!</h2>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to
+                get
+                in touch!</p>
+        </section>
+
+        <script src="src/js/index.js"></script>
+</body>
+</html>
